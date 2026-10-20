@@ -1,0 +1,27 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Installed dependencies
+vendor/
+
+# Logs and temporary files
+*.log
+error_log
+*.tmp
+*.bak
+*.swp
+
+# Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Runtime uploads
+/assets/uploads/*
+!/assets/uploads/.gitkeep
